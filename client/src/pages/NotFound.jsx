@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default function NotFound(){return <div className="not-found"><div className="eyebrow">404 · PAGE NOT FOUND</div><h1>Looks like this path<br/>hasn't been planted.</h1><p>The page may have moved, or the address may be incorrect.</p><Link className="btn btn-agri" to="/">Back to home</Link></div>}
